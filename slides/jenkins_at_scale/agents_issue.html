@@ -1,0 +1,15 @@
+<p align="left"><span class="issue">Challenge: </span><span>So it is release time, build queue is getting longer</span></p>
+
+<p align="left" class="fragment"><span class="issue">Challenge: </span><span>Each stage requires a separate environment with different requirements</span></p>
+
+<p align="left" class="fragment"><span class="solution">Solution: </span><span>Using the cloud infrastructure (e.g. Apache Mesos)</span></p>
+
+<aside class="notes">
+    ### Низкая утилизация ресурсов
+    Проблема: Во время релиза очередь на Jenkins постоянно занята и требует много ресурсов, а в остальное время эти ресурсы простаивают.
+
+    Проблема: Каждый этап непрерывной интеграции требует свое собственное окружение разного размера. И оно также простаивает.
+
+    Решение: Используем облачную инфраструктуру (например Mesos) для динамического создания агентов и окружений
+    Это позваляет использовать более ресурсы эффективно.
+</aside>

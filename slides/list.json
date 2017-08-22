@@ -1,0 +1,28 @@
+[
+    [
+        "introduction/index.html"
+    ],
+    [
+        "problem/easy_ci.html",
+        "problem/ci_principles.html",
+        "problem/was_and_now.html",
+        "problem/microservices.html"
+    ],
+    [
+        "multi_stage_ci/modern_product.html",
+        "multi_stage_ci/structure.html"
+    ],
+    [
+        "jenkins_at_scale/intro.html",
+        "jenkins_at_scale/stack_issue.html",
+        "jenkins_at_scale/agents_issue.html",
+        "jenkins_at_scale/load_issue.html",
+        "jenkins_at_scale/master_issue.html",
+        "jenkins_at_scale/example.html"
+    ],
+    [
+        "final/summary.html",
+        "final/final.html",
+        "final/email.html"
+    ]
+]
