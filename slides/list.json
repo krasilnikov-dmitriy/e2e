@@ -1,28 +1,43 @@
 [
     [
-        "introduction/index.html"
+        "0_introduction/00_index.html",
+        "0_introduction/10_what_is_ci.html",
+        "0_introduction/20_what_is_ci_at_scale.html",
+        "0_introduction/30_questions.html"
     ],
     [
-        "problem/easy_ci.html",
-        "problem/ci_principles.html",
-        "problem/was_and_now.html",
-        "problem/microservices.html"
+        "1_introduction/00_we_did_ci.html",
+        "1_introduction/10_no_one_cares.html",
+        "1_introduction/20_what_is_rc.html",
+        "1_introduction/30_what_is_platform.html",
+        "1_introduction/40_rc_arch.html",
+        "1_introduction/50_platform_arch.html",
+        "1_introduction/60_merge_schedule.html",
+        "1_introduction/70_test_environment.html",
+        "1_introduction/80_qa_is_killing_ci.html",
+        "1_introduction/90_ci_is_easy.html"
     ],
     [
-        "multi_stage_ci/modern_product.html",
-        "multi_stage_ci/structure.html"
+        "2_msci/00_current_situation.html",
+        "2_msci/10_integrations.html",
+        "2_msci/20_types_of_tests.html",
+        "2_msci/2_msci/40_msci_diagram.html",
+        "2_msci/50_release_managers.html",
+        "2_msci/60_msci_infra.html"
     ],
     [
-        "jenkins_at_scale/intro.html",
-        "jenkins_at_scale/stack_issue.html",
-        "jenkins_at_scale/agents_issue.html",
-        "jenkins_at_scale/load_issue.html",
-        "jenkins_at_scale/master_issue.html",
-        "jenkins_at_scale/example.html"
+        "3_jenkins/00_why_jenkins.html",
+        "3_jenkins/10_tech_stack.html",
+        "3_jenkins/20_agents.html",
+        "3_jenkins/30_env.html",
+        "3_jenkins/40_master.html",
+        "3_jenkins/50_job_config.html",
+        "3_jenkins/60_monitoring.html",
+        "3_jenkins/70_one_vs_many.html"
     ],
     [
-        "final/summary.html",
-        "final/final.html",
-        "final/email.html"
+        "4_final/00_summary.html",
+        "4_final/10_final.html",
+        "4_final/20_contacts.html"
     ]
 ]
