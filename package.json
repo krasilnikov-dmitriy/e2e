@@ -2,9 +2,7 @@
     "name": "reveal-js-and-yeoman-is-awesomeness",
     "version": "0.0.0",
     "private": true,
-    "devDependencies": {
-
-    },
+    "devDependencies": {},
     "engines": {
         "node": ">=4"
     },
