@@ -23,8 +23,7 @@
         "2_msci/03_mock_approach.html",
         "2_msci/10_integrations.html",
         "2_msci/40_msci_diagram.html",
-        "2_msci/50_release_managers.html",
-        "2_msci/60_msci_infra.html"
+        "2_msci/50_release_managers.html"
     ],
     [
         "3_jenkins/00_why_jenkins.html",
