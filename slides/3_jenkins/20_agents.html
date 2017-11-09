@@ -1,4 +1,19 @@
-<h2 style="text-transform: none;">Jenkins agents and resources</h2>
+<h2 style="text-transform: none;">Jenkins ephemeral agents</h2>
 
+<ul style="line-height: 1.8;  list-style-type: none">
+    <li class="fragment">✓ in Docker</li>
+    <li class="fragment">✓ in the Cloud</li>
+    <li class="fragment">✓ supported by someone else</li>
+</ul>
+
+<aside class="notes">
+    ### Низкая утилизация ресурсов
+    Проблема: Во время релиза очередь на Jenkins постоянно занята и требует много ресурсов, а в остальное время эти ресурсы простаивают.
+
+    Проблема: Каждый этап непрерывной интеграции требует свое собственное окружение разного размера. И оно также простаивает.
+
+    Решение: Используем облачную инфраструктуру (например Mesos) для динамического создания агентов и окружений
+    Это позваляет использовать более ресурсы эффективно.
+</aside>
 <aside class="notes">
 </aside>
