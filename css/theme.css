@@ -3,7 +3,7 @@
  *
  * Copyright (C) 2015 Hakim El Hattab, http://hakim.se
  */
-@import url(../bower_components/reveal.js/lib/font/source-sans-pro/source-sans-pro.css);
+@import url(../bower_components/roboto-fontface/css/roboto/roboto-fontface.css);
 section.has-light-background, section.has-light-background h1, section.has-light-background h2, section.has-light-background h3, section.has-light-background h4, section.has-light-background h5, section.has-light-background h6 {
   color: #222; }
 
@@ -47,7 +47,7 @@ body {
   background-color: #fafafa; }
 
 .reveal {
-  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  font-family: "Roboto-Regular", "Source Sans Pro", Helvetica, sans-serif;
   font-size: 38px;
   font-weight: normal;
   color: #383d3d; }
@@ -78,11 +78,11 @@ body {
 .reveal h6 {
   margin: 0 0 20px 0;
   color: #383d3d;
-  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  font-family: "Roboto-Light", "Source Sans Pro", Helvetica, sans-serif;
   font-weight: 600;
   line-height: 1.2;
   letter-spacing: normal;
-  text-transform: uppercase;
+  text-transform: none;
   text-shadow: none;
   word-wrap: break-word; }
 

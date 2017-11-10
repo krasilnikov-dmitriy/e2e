@@ -11,6 +11,7 @@
         "1_introduction/20_what_is_rc.html",
         "1_introduction/40_rc_arch.html",
         "1_introduction/50_platform_arch.html",
+        "1_introduction/51_platform_regression.html",
         "1_introduction/60_merge_schedule.html",
         "1_introduction/70_test_environment.html",
         "1_introduction/80_qa_is_killing_ci.html",
@@ -22,7 +23,18 @@
         "2_msci/02_e2e_approach.html",
         "2_msci/03_mock_approach.html",
         "2_msci/10_integrations.html",
-        "2_msci/40_msci_diagram.html",
+        {
+            "filename": "2_msci/40_msci_diagram.html",
+            "attr": {
+                "data-transition": "slide-in fade-out"
+            }
+        },
+        {
+            "filename": "2_msci/41_msci_diagram.html",
+            "attr": {
+                "data-transition": "slide-out fade-in"
+            }
+        },
         "2_msci/50_release_managers.html"
     ],
     [

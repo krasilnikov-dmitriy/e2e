@@ -46,7 +46,7 @@
 
 dt {
     float: left;
-    width: 40%;
+    width: 39%;
     text-align: right;
     padding: .25em;
     clear: left;
@@ -55,7 +55,7 @@ dt {
 }
 dd {
     float: left;
-    width: 57%;
+    width: 58%;
     padding: .25em 0;
     margin-top: 20px !important;
     margin-left: 20px !important;

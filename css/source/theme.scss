@@ -17,7 +17,7 @@
 
 
 // Include theme-specific fonts
-@import url(../bower_components/reveal.js/lib/font/source-sans-pro/source-sans-pro.css);
+@import url(../bower_components/roboto-fontface/css/roboto/roboto-fontface.css);
 
 
 // Override theme settings (see ../../bower_components/reveal.js/css/theme/template/settings.scss)
@@ -27,11 +27,11 @@ $mainColor: #383d3d;
 $headingColor: #383d3d;
 
 $mainFontSize: 38px;
-$mainFont: 'Source Sans Pro', Helvetica, sans-serif;
-$headingFont: 'Source Sans Pro', Helvetica, sans-serif;
+$mainFont: 'Roboto-Regular', 'Source Sans Pro', Helvetica, sans-serif;
+$headingFont: 'Roboto-Light', 'Source Sans Pro', Helvetica, sans-serif;
 $headingTextShadow: none;
 $headingLetterSpacing: normal;
-$headingTextTransform: uppercase;
+$headingTextTransform: none;
 $headingFontWeight: 600;
 $linkColor: #527fc0;
 $linkColorHover: lighten( $linkColor, 15% );
