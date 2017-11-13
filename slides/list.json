@@ -21,6 +21,7 @@
         "2_msci/01_how_to_test_distributed_system.html",
         "2_msci/02_e2e_approach.html",
         "2_msci/03_mock_approach.html",
+        "2_msci/04_who_wins.html",
         "2_msci/10_integrations.html",
         {
             "filename": "2_msci/40_msci_diagram.html",
