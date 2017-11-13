@@ -14,8 +14,7 @@
         "1_introduction/51_platform_regression.html",
         "1_introduction/60_merge_schedule.html",
         "1_introduction/70_test_environment.html",
-        "1_introduction/80_qa_is_killing_ci.html",
-        "1_introduction/90_ci_is_easy.html"
+        "1_introduction/80_qa_is_killing_ci.html"
     ],
     [
         "2_msci/00_current_situation.html",
@@ -32,8 +31,7 @@
         {
             "filename": "2_msci/41_msci_diagram.html",
             "attr": {
-                "data-transition": "slide-out fade-in",
-                "data-transition-speed": "fast"
+                "data-transition": "slide-out fade-in"
             }
         },
         "2_msci/50_release_managers.html"
@@ -46,8 +44,8 @@
         "3_jenkins/70_one_vs_many.html"
     ],
     [
-        "4_final/00_summary.html",
         "4_final/10_final.html",
-        "4_final/20_contacts.html"
+        "4_final/20_contacts.html",
+        "4_final/30_questions.html"
     ]
 ]
