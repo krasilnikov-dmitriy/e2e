@@ -32,7 +32,8 @@
         {
             "filename": "2_msci/41_msci_diagram.html",
             "attr": {
-                "data-transition": "slide-out fade-in"
+                "data-transition": "slide-out fade-in",
+                "data-transition-speed": "fast"
             }
         },
         "2_msci/50_release_managers.html"
