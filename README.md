@@ -1,1 +1,1 @@
-# docker-meetup-2017
+# DevOps Pro 2017
