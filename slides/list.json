@@ -1,52 +1,9 @@
 [
+    "index.html",
     [
-        "0_introduction/00_index.html",
-        "0_introduction/10_what_is_ci.html",
-        "0_introduction/20_what_is_ci_at_scale.html",
-        "0_introduction/30_questions.html"
-    ],
-    [
-        "1_introduction/00_we_did_ci.html",
-        "1_introduction/10_no_one_cares.html",
-        "1_introduction/20_what_is_rc.html",
-        "1_introduction/40_rc_arch.html",
-        "1_introduction/50_platform_arch.html",
-        "1_introduction/51_platform_regression.html",
-        "1_introduction/60_merge_schedule.html",
-        "1_introduction/70_test_environment.html",
-        "1_introduction/80_qa_is_killing_ci.html"
-    ],
-    [
-        "2_msci/00_current_situation.html",
-        "2_msci/01_how_to_test_distributed_system.html",
-        "2_msci/02_e2e_approach.html",
-        "2_msci/03_mock_approach.html",
-        "2_msci/04_who_wins.html",
-        "2_msci/10_integrations.html",
-        {
-            "filename": "2_msci/40_msci_diagram.html",
-            "attr": {
-                "data-transition": "slide-in fade-out"
-            }
-        },
-        {
-            "filename": "2_msci/41_msci_diagram.html",
-            "attr": {
-                "data-transition": "slide-out fade-in"
-            }
-        },
-        "2_msci/50_release_managers.html"
-    ],
-    [
-        "3_jenkins/00_why_jenkins.html",
-        "3_jenkins/10_tech_stack.html",
-        "3_jenkins/20_agents.html",
-        "3_jenkins/40_master.html",
-        "3_jenkins/70_one_vs_many.html"
-    ],
-    [
-        "4_final/10_final.html",
-        "4_final/30_questions.html",
-        "4_final/20_contacts.html"
+        "introduction/10_what-do-testers-do.html",
+        "introduction/20_what-are-the-profit-of-tests.html",
+        "introduction/30_test-types.html",
+        "introduction/40_why-we-speak-about-e2e.html"
     ]
 ]

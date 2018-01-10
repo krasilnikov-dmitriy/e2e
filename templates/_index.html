@@ -40,7 +40,7 @@
 
             <div class="slides">
 
-                <div id="myLogo" style="background: url(slides/logo.svg);
+                <div id="myLogo" style="background: url(resources/img/logo.svg);
                         background-repeat: no-repeat;
                         position: relative;
                         bottom: -620px;
@@ -88,7 +88,8 @@
               { src: 'bower_components/reveal.js/plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( '[data-html]' ) || !!document.querySelector( 'pre code' ) || !!document.querySelector( '[data-markdown]' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
               { src: 'bower_components/reveal.js/plugin/zoom-js/zoom.js', async: true },
               { src: 'bower_components/reveal.js/plugin/notes/notes.js', async: true },
-              { src: 'js/loadhtmlslides.js', condition: function() { return !!document.querySelector( '[data-html]' ); } }
+              { src: 'js/loadhtmlslides.js', condition: function() { return !!document.querySelector( '[data-html]' ); } },
+              { src: 'bower_components/reveal-tagcloud/tagcloud/tagcloud.js', async: true }
             ]
           });
 
