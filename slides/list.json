@@ -5,5 +5,19 @@
         "introduction/20_what-are-the-profit-of-tests.html",
         "introduction/30_test-types.html",
         "introduction/40_why-we-speak-about-e2e.html"
+    ],
+    [
+        "scaling/10_combinatorial-scaling.html"
+    ],
+    [
+        "coverage/10_low-test-coverage.html"
+    ],
+    [
+        "cost/10_expensive.html",
+        "cost/20_require-environment.html"
+    ],
+    [
+        "speed/10_slow.html",
+        "speed/20_flaky.html"
     ]
 ]
