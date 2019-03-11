@@ -1,23 +1,26 @@
 [
     "index.html",
     [
+        "who_hate_e2e/10_j_brains.html",
+        "who_hate_e2e/20_google.html",
+        "who_hate_e2e/30_google_philosophy.html"
+    ],
+    [
         "introduction/10_what-do-testers-do.html",
         "introduction/20_what-are-the-profit-of-tests.html",
-        "introduction/30_test-types.html",
         "introduction/40_why-we-speak-about-e2e.html"
     ],
     [
-        "scaling/10_combinatorial-scaling.html"
+        "whats_wrong/10_unstable.html",
+        "whats_wrong/20_slow.html",
+        "whats_wrong/30_not_informative.html",
+        "whats_wrong/40_data_preparation.html",
+        "whats_wrong/50_e2e_tests_scale_combinatorial.html",
+        "whats_wrong/60_test_framework.html"
     ],
     [
-        "coverage/10_low-test-coverage.html"
-    ],
-    [
-        "cost/10_expensive.html",
-        "cost/20_require-environment.html"
-    ],
-    [
-        "speed/10_slow.html",
-        "speed/20_flaky.html"
+        "final/10_final.html",
+        "final/20_questions.html",
+        "final/30_contacts.html"
     ]
 ]

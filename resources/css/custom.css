@@ -67,11 +67,22 @@ dl:after {content:"";display:table;clear:both;}
     src: url(KeepCalm-Medium.ttf);
 }
 
-/*********************************************
- * TAGCLOUD
- *********************************************/
-clouditem {
-    padding-left: 0.15em;
-    padding-right: 0.15em;
-    line-height: 90%;
+div.graph {
+    border-width: 0.1em;
+    border-style: solid;
+    border-color: transparent;
+    text-align: left;
+    height: 80vh;
 }
+
+#highlight-networks {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 6em; /* two icons at 3x size = 6em */
+    height: 6em;
+    border: 1em solid white;
+    border-radius: 50%;
+}
+
