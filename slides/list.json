@@ -1,8 +1,26 @@
 [
-    "index.html",
+    {
+        "filename": "index.html",
+        "attr": {
+            "data-background-image": "resources/img/everybody_hates_e2e_tests.png",
+            "data-background-transition": "slide"
+        }
+    },
+    {
+        "filename": "who_hate_e2e/10_j_brains.html",
+        "attr": {
+            "data-background-image": "resources/img/integrations_tests_scum.png",
+            "data-background-transition": "slide"
+        }
+    },
+    {
+        "filename": "who_hate_e2e/20_google.html",
+        "attr": {
+            "data-background-image": "resources/img/e2e_tests_no_more.png",
+            "data-background-transition": "slide"
+        }
+    },
     [
-        "who_hate_e2e/10_j_brains.html",
-        "who_hate_e2e/20_google.html",
         "who_hate_e2e/30_google_philosophy.html"
     ],
     [
