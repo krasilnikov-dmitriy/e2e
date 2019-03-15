@@ -1,5 +1,5 @@
 {
-    "name": "reveal-js-and-yeoman-is-awesomeness",
+    "name": "everybody-hates-e2e-tests",
     "version": "0.0.0",
     "private": true,
     "devDependencies": {
@@ -7,6 +7,10 @@
     },
     "engines": {
         "node": ">=4"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:krasilnikov-dmitriy/e2e.git"
     },
     "scripts": {
         "test": "grunt test",
