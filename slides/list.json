@@ -20,25 +20,58 @@
             "data-background-transition": "slide"
         }
     },
-    [
-        "who_hate_e2e/30_google_philosophy.html"
-    ],
-    [
-        "introduction/10_what-do-testers-do.html",
-        "introduction/20_what-are-the-profit-of-tests.html",
-        "introduction/40_why-we-speak-about-e2e.html"
-    ],
-    [
-        "whats_wrong/10_unstable.html",
-        "whats_wrong/20_slow.html",
-        "whats_wrong/30_not_informative.html",
-        "whats_wrong/40_data_preparation.html",
-        "whats_wrong/50_e2e_tests_scale_combinatorial.html",
-        "whats_wrong/60_test_framework.html"
-    ],
-    [
-        "final/10_final.html",
-        "final/20_questions.html",
-        "final/30_contacts.html"
-    ]
+    {
+        "filename": "who_hate_e2e/30_google_philosophy.html",
+        "attr": {
+            "data-background-image": "resources/img/philosophy.png",
+            "data-background-transition": "slide"
+        }
+    },
+    {
+        "filename": "introduction/10_what-do-testers-do.html",
+        "attr": {
+            "data-background-image": "resources/img/hatty_why.png",
+            "data-background-transition": "slide"
+        }
+    },
+    {
+        "filename": "introduction/40_why-we-speak-about-e2e.html",
+        "attr": {
+            "data-background-image": "resources/img/everybody_loves_e2e.png",
+            "data-background-transition": "slide"
+        }
+    },
+    {
+        "filename": "whats_wrong/10_unstable.html",
+        "attr": {
+            "data-background-image": "resources/img/flaky.png",
+            "data-background-transition": "slide"
+        }
+    },
+    {
+        "filename": "whats_wrong/20_slow.html",
+        "attr": {
+            "data-background-image": "resources/img/slow.png",
+            "data-background-transition": "slide"
+        }
+    },
+    "whats_wrong/30_not_informative.html",
+    "whats_wrong/40_data_preparation.html",
+    {
+        "filename": "whats_wrong/50_e2e_tests_scale_combinatorial.html",
+        "attr": {
+            "data-background-image": "resources/img/combinatorial_scaling.png",
+            "data-background-transition": "slide"
+        }
+    },
+    {
+        "filename": "whats_wrong/60_test_framework.html",
+        "attr": {
+            "data-background-image": "resources/img/framework.png",
+            "data-background-transition": "slide"
+        }
+    },
+    "final/10_final.html",
+    "final/20_questions.html",
+    "final/30_contacts.html"
 ]

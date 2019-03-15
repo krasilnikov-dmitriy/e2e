@@ -1,8 +1,10 @@
 {
-  "generator-reveal": {
-    "presentationTitle": "Reveal.js and Yeoman is Awesomeness",
-    "packageVersion": "0.0.0",
-    "useSass": true,
-    "deployToGithubPages": false
-  }
+    "generator-reveal": {
+        "presentationTitle": "Everybody Hates E2E Tests",
+        "packageVersion": "0.0.0",
+        "useSass": true,
+        "deployToGithubPages": true,
+        "githubUsername": "krasilnikov-dmitriy",
+        "githubRepository": "e2e"
+    }
 }
