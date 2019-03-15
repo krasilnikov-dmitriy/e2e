@@ -1,0 +1,32 @@
+<h2>Как много тестов нужно написать?</h2>
+<pre><code data-trim data-noescape class="java">
+// Cyclomatic complexity 3
+class A {
+    B b = new B();
+
+    int doMagicA(int value1, int value2, int value3) {
+        if (value1 == 0) {
+            return 1 + b.doMagicB(value2, value3);
+        } else if (value1 > 0) {
+            return value1 + 2 * b.doMagicB(value2, value3);
+        } else {
+            return value1 - 2 * b.doMagicB(value2, value3);
+        }
+    }
+}
+</code></pre>
+
+<aside class="notes">
+    (Современное ПО)
+    Представим себе ситуацию что один запрос задействует 6 сервисов
+    (расказать что такое тестирование =что такое кодовый путь и причем он здесь)
+    В каждом из них 2 возможных пути развития событий (2 if'а)
+
+    2 кодовых пути: 2^6 = 64
+    4 кодовых пути: 4^6 = 4096
+    6 кодовых путей: 6^6 = 46 656
+    8 кодовых путей: 8^6 = 262 144
+    10 кодовых путей: 10^6 = 1000 000
+
+    Милион тестов!
+</aside>
