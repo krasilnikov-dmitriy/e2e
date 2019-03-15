@@ -1,4 +1,4 @@
-# Generated on 2017-05-25 using generator-reveal 1.0.0
+# Generated on 2018-05-04 using generator-reveal 1.0.0
 module.exports = (grunt) ->
 
     grunt.initConfig
@@ -80,7 +80,6 @@ module.exports = (grunt) ->
                         'bower_components/**'
                         'js/**'
                         'css/*.css'
-                        'css/*.styl'
                         'resources/**'
                     ]
                     dest: 'dist/'
@@ -92,13 +91,24 @@ module.exports = (grunt) ->
                 }]
 
 
+        buildcontrol:
+            options:
+                dir: 'dist'
+                commit: true
+                push: true
+                message: 'Built from %sourceCommit% on branch %sourceBranch%'
+            pages:
+                options:
+                    remote: '<%= pkg.repository.url %>'
+                    branch: 'gh-pages'
+
 
 
     # Load all grunt tasks.
     require('load-grunt-tasks')(grunt)
 
     grunt.registerTask 'buildIndex',
-        'Build 00_index.html from templates/_index.html and slides/list.json.',
+        'Build index.html from templates/_index.html and slides/list.json.',
         ->
             indexTemplate = grunt.file.read 'templates/_index.html'
             sectionTemplate = grunt.file.read 'templates/_section.html'
@@ -135,6 +145,12 @@ module.exports = (grunt) ->
             'copy'
         ]
 
+
+    grunt.registerTask 'deploy',
+        'Deploy to Github Pages', [
+            'dist'
+            'buildcontrol'
+        ]
 
 
     # Define default task.
