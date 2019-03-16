@@ -55,8 +55,20 @@
             "data-background-transition": "slide"
         }
     },
-    "whats_wrong/30_not_informative.html",
-    "whats_wrong/40_data_preparation.html",
+    {
+        "filename": "whats_wrong/30_not_informative.html",
+        "attr": {
+            "data-background-image": "resources/img/whats_wrong.png",
+            "data-background-transition": "slide"
+        }
+    },
+    {
+        "filename": "whats_wrong/40_data_preparation.html",
+        "attr": {
+            "data-background-image": "resources/img/test_data.png",
+            "data-background-transition": "slide"
+        }
+    },
     {
         "filename": "whats_wrong/50_e2e_tests_scale_combinatorial.html",
         "attr": {
@@ -68,6 +80,13 @@
         "filename": "whats_wrong/60_test_framework.html",
         "attr": {
             "data-background-image": "resources/img/framework.png",
+            "data-background-transition": "slide"
+        }
+    },
+    {
+        "filename": "whats_wrong/70_result.html",
+        "attr": {
+            "data-background-image": "resources/img/result.png",
             "data-background-transition": "slide"
         }
     },
