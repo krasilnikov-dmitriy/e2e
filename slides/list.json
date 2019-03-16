@@ -90,7 +90,13 @@
             "data-background-transition": "slide"
         }
     },
-    "final/10_final.html",
+    {
+        "filename": "final/10_final.html",
+        "attr": {
+            "data-background-image": "resources/img/shame_on_e2e.png",
+            "data-background-transition": "slide"
+        }
+    },
     "final/20_questions.html",
     "final/30_contacts.html"
 ]
