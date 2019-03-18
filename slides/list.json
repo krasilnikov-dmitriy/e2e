@@ -97,6 +97,19 @@
             "data-background-transition": "slide"
         }
     },
-    "final/20_questions.html",
+    {
+        "filename": "final/11_coop.html",
+        "attr": {
+            "data-background-image": "resources/img/coop.png",
+            "data-background-transition": "slide"
+        }
+    },
+    {
+        "filename": "final/20_questions.html",
+        "attr": {
+            "data-background-image": "resources/img/questions.png",
+            "data-background-transition": "slide"
+        }
+    },
     "final/30_contacts.html"
 ]
