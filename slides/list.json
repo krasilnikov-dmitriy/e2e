@@ -49,9 +49,23 @@
         }
     },
     {
+        "filename": "whats_wrong/70_result.html",
+        "attr": {
+            "data-background-image": "resources/img/result_flaky.png",
+            "data-background-transition": "slide"
+        }
+    },
+    {
         "filename": "whats_wrong/20_slow.html",
         "attr": {
             "data-background-image": "resources/img/slow.png",
+            "data-background-transition": "slide"
+        }
+    },
+    {
+        "filename": "whats_wrong/70_result.html",
+        "attr": {
+            "data-background-image": "resources/img/result_slow.png",
             "data-background-transition": "slide"
         }
     },
@@ -63,6 +77,13 @@
         }
     },
     {
+        "filename": "whats_wrong/70_result.html",
+        "attr": {
+            "data-background-image": "resources/img/result_uninformative.png",
+            "data-background-transition": "slide"
+        }
+    },
+    {
         "filename": "whats_wrong/40_data_preparation.html",
         "attr": {
             "data-background-image": "resources/img/test_data.png",
@@ -70,9 +91,23 @@
         }
     },
     {
+        "filename": "whats_wrong/70_result.html",
+        "attr": {
+            "data-background-image": "resources/img/result_complicated.png",
+            "data-background-transition": "slide"
+        }
+    },
+    {
         "filename": "whats_wrong/50_e2e_tests_scale_combinatorial.html",
         "attr": {
             "data-background-image": "resources/img/combinatorial_scaling.png",
+            "data-background-transition": "slide"
+        }
+    },
+    {
+        "filename": "whats_wrong/70_result.html",
+        "attr": {
+            "data-background-image": "resources/img/result_complicated2.png",
             "data-background-transition": "slide"
         }
     },
@@ -87,6 +122,13 @@
         "filename": "whats_wrong/70_result.html",
         "attr": {
             "data-background-image": "resources/img/result.png",
+            "data-background-transition": "slide"
+        }
+    },
+    {
+        "filename": "whats_wrong/70_result.html",
+        "attr": {
+            "data-background-image": "resources/img/hatty_how.png",
             "data-background-transition": "slide"
         }
     },
