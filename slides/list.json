@@ -107,7 +107,7 @@
     {
         "filename": "whats_wrong/70_result.html",
         "attr": {
-            "data-background-image": "resources/img/result_complicated.png",
+            "data-background-image": "resources/img/result_complicated2.png",
             "data-background-transition": "slide"
         }
     },
